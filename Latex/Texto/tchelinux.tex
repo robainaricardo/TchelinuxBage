@@ -1,0 +1,168 @@
+%Preâmbulo
+
+%Define o tipo de documento
+\documentclass{book}
+
+
+%Pacotes+++++++++++++++++++++++++++++++++++++++++++++++++
+%%figuras e graficos
+\usepackage{float}
+\usepackage{graphicx}
+%%Pt-Br
+\usepackage[portuguese]{babel} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+%Citações abnt
+\usepackage[alf,abnt-emphasize=bf]{abntex2cite}
+%%+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\title{Um Exemplo de Texto em \LaTeX}
+\author{Ricardo Peixoto Robaina}
+
+%%criando uma "variavel"
+\newcommand{\tl}{Tchelinux}
+
+
+%Corpo
+\begin{document}
+	
+	%%Gera o título do documento	
+	\maketitle
+	
+	%%pula uma pagina
+	\newpage
+	
+	%%Gera o sumário
+	\tableofcontents
+	
+	\newpage
+	
+	
+	%%cria uma nova seção no texto
+	\section{Introdução}
+	\label{Intro} %% uma referência para fazer o cruzamento 
+	Este texto é um exemplo de como utilizar \LaTeX. A seção \ref{tchelinux} trata do evento \tl. A seção \ref{quem} mostra quem somos. A seção \ref{mascote} aprenta o mascote do evento \tl.
+	
+	%% \ref{label} gera o indice correto da referência passada como parâmetro
+	
+	%% \tl vai inserir a variavél criada (Tchelinuz) 
+	
+	
+	%%Citação de obras cadastradas no arquivo bibliografia.bib
+	Vou fazer uma citação indireta. \cite{scrumGuide} e \cite{UnitySite} sao exemplos de referencias.
+	
+	\section{\tl}
+	\label{tchelinux}
+	\tl, Software Livre em Ação!
+	
+	A paixão pelo Software Livre assim como o desejo de compartilhar conhecimentos fez com que um grupo de usuários                      se reunisse e trabalhasse junto na organização de eventos para a divulgação de ferramentas e da filosofia open source em instituições educacionais do Rio Grande do Sul. Aproveitando a ideia de voluntariado, o grupo decidiu que os eventos seriam sempre gratuitos, porém os participantes são encorajados a doar 2kg de alimentos não-perecíveis, que são encaminhados a instituições de caridade da cidade onde ocorre o evento.
+	
+	Desde Outubro de 2006 o \tl\ realizou 84 eventos em 20 cidades com o auxílio de milhares de voluntários, que ajudaram na organização e apresentando 1291 palestras foram assistidas por 10268 pessoas que doaram 16295kg de alimentos para 40 instituições de caridade. 
+	
+	Há muito trabalho a ser feito e todos são bem-vindos a participar do \tl\ e ajudar a divulgar o Software Livre e levar o conhecimento à todos cantos do Rio Grande do Sul! 
+	
+	\textbf{Contamos com você! }
+	
+	Termos em inglês, como \textit{software}, devem estar em itálico.	
+	
+	
+	\subsection{Quem Somos}
+	\label{quem}
+	O \tl é um grupo de voluntários que trabalha divulgação do Software Livre no estado do Rio Grande do Sul, através da organização e realização de eventos gratuitos para estudantes, profissionais da área de Tecnologia da Informação e demais interessados.
+	
+	O grupo promove também a caridade, uma vez que participantes de seus eventos são encorajados a doarem alimentos não-perecíveis para serem encaminhados à instituções de caridade.
+	
+	Nossas principais iniciativas:
+	%%Cria uma lista de itens
+	\begin{itemize}
+		\item Divulgar o Software Livre no estado do Rio Grande do Sul
+		\item Compartilhar conhecimento técnico e experiências
+		\item Suporte a novos usuários de Software Livre
+		\item Incentivo à caridade
+	\end{itemize}
+	
+	
+	\section{Mascote}
+	\label{mascote}
+	
+	%%Insere uma figura
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics{figura.png}
+		\caption{Mascote tche Linz}
+		\label{figura_tux}
+	\end{figure}
+	
+	
+	O símbolo do software foi escolhido pelo seu criador, Linus Torvalds, que um dia estava no zoológico e foi surpreendido pela mordida de um pinguim. Fato curioso e discutido até hoje. 
+	
+	
+	Em 1996, muitos integrantes da lista de discussão "Linux-Kernel" estavam discutindo sobre a criação de um logotipo ou de um mascote que representasse o Linux. Muitas das sugestões eram paródias ao logotipo de um sistema operacional concorrente e muito conhecido (Windows). Outros eram monstros ou animais agressivos. 
+	
+	Linus Torvalds acabou entrando nesse debate ao afirmar em uma mensagem que gostava muito de pinguins. Isso foi o suficiente para dar fim à discussão. Depois disso, várias tentativas foram feitas numa espécie de concurso para que a imagem de um pinguim servisse aos propósitos do Linux, até que Larry Ewing sugeriu a figura de um "pinguim sustentando o mundo". 
+	
+	Em resposta, Linus Torvalds declarou que achava interessante que esse pinguim tivesse uma imagem simples: um pinguim "gordinho" e com expressão de satisfeito, como se tivesse acabado de comer uma porção de peixes.
+	
+	Torvalds também não achava atraente a ideia de algo agressivo, mas sim a ideia de um pinguim simpático, do tipo em que as crianças perguntem: "Mamãe, posso ter um desses também?". 
+	
+	Ainda, Torvalds também frisou que trabalhando dessa forma, as pessoas poderiam criar várias modificações desse pinguim. Isso realmente acontece.
+	
+	Kurumim Linux, o meu Tux preferido
+	Este, diferente do original, é um filhote, mais magro, um menino em forma de pinguim, corajoso, e com características brasileiras. 
+	
+	Linus confessou ter contraído "Pinguinite", doença transmitida por mordidas de pinguim. O sintoma é gostar muito de pinguins. 
+	
+	Quando questionado sobre o por quê de pinguins, Linus Torvalds respondeu que não havia uma razão em especial, mas os achava engraçados e até citou que foi bicado por um "pinguim assassino" na Austrália e ficou impressionado como a bicada de um animal aparentemente tão inofensivo, podia ser tão dolorosa. 
+	A \figurename~\ref{mascote} apresenta o uma imagem do mascote do \tl. O mascote do \tl\ é
+	o Tux pilchado.	
+	%\includegraphics{figura.png}
+	
+	
+	
+	
+	\section{Tabelas}
+	
+	%%insere uma nova tabela (melhorar utilizar ferramenas para criar as tabelas) https://www.tablesgenerator.com/
+	\begin{table}[h]
+		\centering
+		\caption{Um nome qualquer}
+		\vspace{0.5cm}
+		\begin{tabular}{r|lr}
+			
+			Posi{\c c}{\~a}o & Pa{\'i}s & IDH \\ % Note a separação de col. e a quebra de linhas
+			\hline                               % para uma linha horizontal
+			1 & Noruega        & .955 \\
+			2 & Austr{\'a}lia  & .938 \\
+			3 & EUA            & .937 \\
+			4 & Holanda        & .921 \\
+			5 & Alemanha       & .920            % não é preciso quebrar a última linha
+			
+		\end{tabular}
+	\end{table}
+	
+	
+	%%Muito fácil criar fórumlas em LaTeX
+	\section{Formulas Matemáticas}
+	
+	$$ X_1 + X_2 + X_3 $$
+			
+	
+	A Equação \ref{bask} apresenta a fórmula de Baskara.
+	
+	\begin{equation}
+		x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} 
+		\label{bask}
+	\end{equation}
+	
+	
+	%% Bibliografia
+	%%um programa legal para gerencias as bibliografias é o JabRef http://www.jabref.org/
+	\bibliography{bibliografia}
+	
+	
+	
+\end{document}
+
+
+%Final documento

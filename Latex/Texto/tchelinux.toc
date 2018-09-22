@@ -1,0 +1,7 @@
+\babel@toc {portuguese}{}
+\contentsline {section}{\numberline {0.1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {section}{\numberline {0.2}Tchelinux}{4}
+\contentsline {subsection}{\numberline {0.2.1}Quem Somos}{4}
+\contentsline {section}{\numberline {0.3}Mascote}{5}
+\contentsline {section}{\numberline {0.4}Tabelas}{6}
+\contentsline {section}{\numberline {0.5}Formulas Matem\IeC {\'a}ticas}{6}

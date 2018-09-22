@@ -1,0 +1,19 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Schwaber e Sutherland 2017]{scrumGuide}
+\abntrefinfo{Schwaber e Sutherland}{SCHWABER; SUTHERLAND}{2017}
+{SCHWABER, K.; SUTHERLAND, J. \textbf{The Scrum Guide The Definitive Guide to
+  Scrum: The Rules of the Game}. [s.n.], 2017. Dispon{\'\i}vel em:
+  \url{http://www.scrumguides.org/index.html}.}
+
+\bibitem[Unity 2018]{UnitySite}
+\abntrefinfo{Unity}{UNITY}{2018}
+{UNITY. \textbf{Unity User Manual}. 2018.
+Dispon{\'\i}vel em: \url{https://docs.unity3d.com/Manual/UnityManual.html}.}
+
+\end{thebibliography}

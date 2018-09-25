@@ -1,0 +1,211 @@
+\documentclass{beamer}
+
+\usefonttheme{structurebold}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel} 
+
+
+
+\title{Kotlin: como começar}
+\date{\today}
+\author{Ricardo Peixoto Robaina \\ Techelinux Bagé}
+\institute{Universidade Federal do Pampa}
+
+\usetheme{unipampa}
+
+
+
+
+\begin{document}
+	
+	\begin{frame}[noframenumbering]
+		\titlepage
+		\thispagestyle{empty}
+	\end{frame}
+	
+	\begin{frame}{Sumário}
+		\setbeamertemplate{section in toc}[sections numbered]
+		\tableofcontents[hideallsubsections]
+	\end{frame}
+
+\section{Introdução}
+	\begin{frame}{Introdução}
+		
+		\begin{itemize}
+			\item Linguagem de programação JVM
+			\item JetBrains
+			\item Open Source
+			\item Google I/O - linguagem oficial desenvolvimento android
+		\end{itemize}
+	
+	\end{frame}
+
+	\begin{frame}{Histórico}
+		\begin{itemize}
+			\item Compatibilidade do Java
+			\item JetBrains uso interno
+			\begin{figure}[!htb]
+				\centering
+				\includegraphics[scale=.20]{jetBrains.png}
+			\end{figure}
+			\item Comunidade
+			\item Google I/O 2017 - linguagem oficial de desenvolvimento android
+		\end{itemize}
+	
+	\end{frame}
+
+
+\section{Caracteristícas}
+\begin{frame}{Características}
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=.25]{caracteristicas.png}
+	\end{figure}
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=.20]{why.png}
+	\end{figure}
+	
+\end{frame}
+
+
+
+\section{Instalação}
+\begin{frame}{Intalação}
+
+
+	\begin{block}{SDKMAN!}
+		\begin{itemize}
+			\item \$ curl -s https://get.sdkman.io | bash
+		\end{itemize}
+	\end{block}
+
+	\begin{block}{Compilador (Kotlin)}
+		\begin{itemize}
+			 	\item \$ sdk install kotlin
+		\end{itemize}
+	\end{block}
+	
+	
+	\begin{block}{IntelliJ Studio}
+		\begin{figure}[!htb]
+			\begin{itemize}
+				\item https://www.jetbrains.com/idea/download/#section=linux5
+			\end{itemize}
+			
+			\centering
+			\includegraphics[scale=.15]{intellij.png}
+		\end{figure}
+		
+		
+		
+	\end{block}
+	
+
+\end{frame}
+
+\begin{frame}{Try Kotlin}
+
+	https://try.kotlinlang.org/
+	
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=.20]{trykotlin.png}
+	\end{figure}
+	
+	\begin{itemize}
+		\item Koans
+	\end{itemize}
+	
+\end{frame}
+
+
+
+
+
+\section{Sintaxe básica}
+	\begin{frame}{Sintáxe Básica}
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[scale=.23]{helloworld.png}
+		\end{figure}
+	\end{frame}
+
+\begin{frame}{Compilação}
+	\begin{itemize}
+		\item Teste.kt
+		\item \$ kotlinc hello.kt -include-runtime -d hello.jar
+		\item \$ java -jar hello.jar
+	\end{itemize}
+\end{frame}
+
+\section{Interoperabilidade com Java}
+	\begin{frame}{Interoperabilidade com Java}
+	
+	\end{frame}
+
+
+
+\section{Comunidade}
+
+	\begin{frame}{Comunidade}
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[scale=.23]{comunidade.png}
+		\end{figure}
+	
+	https://kotlinlang.org/community/
+	
+	\end{frame}
+
+
+
+
+
+\section{Referências}
+	
+\begin{frame}{Referências}
+	
+	
+			\begin{itemize}
+				\item https://kotlinlang.org/
+				
+				\item \textbf{Google I/O 2017} https://www.youtube.com/watch?v=X1RVYt2QKQE
+				\\
+				\includegraphics[width=0.5\textwidth]{io17.png}
+			
+				\item \textbf{Google I/O 2018}  https://www.youtube.com/watch?v=6P20npkvcb8
+				\\
+				\includegraphics[width=0.5\textwidth]{io18.png}
+				
+				
+			\end{itemize}
+
+	
+	
+\end{frame}
+
+\begin{frame}{Kotlin: como começar}
+	
+		\newline
+		\begin{center}
+			{\Huge  \textbf{Obrigado!} \\}
+		\end{center}
+		
+		{\normalsize 
+			\begin{itemize}
+				\item ricardorobaina11@gmail.com 
+				\item https://github.com/robainaricardo/tchelinux \\ \newline   
+			\end{itemize}	
+		}
+		\maketitle
+	
+\end{frame}
+
+
+
+\end{document}

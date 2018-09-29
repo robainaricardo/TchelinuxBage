@@ -1,7 +1,0 @@
-\babel@toc {portuguese}{}
-\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
-\beamer@sectionintoc {2}{Instala\IeC {\c c}\IeC {\~a}o}{5}{0}{2}
-\beamer@sectionintoc {3}{Estrutura dos Documentos}{8}{0}{3}
-\beamer@sectionintoc {4}{Criando um Texto}{10}{0}{4}
-\beamer@sectionintoc {5}{Criando um Slide}{11}{0}{5}
-\beamer@sectionintoc {6}{Refer\IeC {\^e}ncias}{12}{0}{6}

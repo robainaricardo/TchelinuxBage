@@ -1,0 +1,29 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800) (preloaded format=pdflatex 2018.8.28)  29 SEP 2018 10:05
+entering extended mode
+**./liveTexto.tex
+(liveTexto.tex
+LaTeX2e <2018-04-01> patch level 5
+
+! LaTeX Error: File `IEEEtran.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.6 \IEEEoverridecommandlockouts
+                                
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 13 strings out of 494891
+ 291 string characters out of 3178793
+ 51369 words of memory out of 3000000
+ 3736 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 10i,0n,8p,64b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

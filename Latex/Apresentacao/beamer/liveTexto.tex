@@ -1,0 +1,169 @@
+%Preâmbulo
+
+%%%%%%%%%%%%%%%%%%%%TEMPLATES
+%%Template IEEE
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+%%Template SBC
+%\documentclass[12pt]{article}
+%\usepackage{sbc-template}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%Define o tipo de documento
+%%\documentclass[twocolumn]{book}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%PACOTES
+%%figuras e graficos
+\usepackage{float}
+\usepackage{graphicx}
+%%Pt-Br
+%\usepackage[portuguese]{babel} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%%\usepackage{booktabs}
+%Citações abnt
+%%\usepackage[alf,abnt-emphasize=bf]{abntex2cite}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Meu Primeiro Texto em \LaTeX}
+\author{Ricardo Peixoto Robaina}
+
+\newcommand{\tl}{Tchelinux}
+
+%Corpo
+\begin{document}
+
+	\maketitle
+	
+	%\tableofcontents
+	
+	\begin{abstract}
+		Este é um resumo do texto a seguir. Este texto trata sobre o \tl. bialsjdoajsd iiajsojasdjaçsjdalk jçlkajs dçlkjaskldj aslkd adoaiishdlka sas dhahsld .
+	\end{abstract}
+	
+	
+	\section{Introdução}
+	
+		\textbf{Tchelinux}, \textit{Software}               Livre em Ação!
+		
+		A paixão pelo Software Livre assim como o desejo de compartilhar conhecimentos fez com que um grupo de usuários se reunisse e trabalhasse junto na organização de eventos para a divulgação de ferramentas e da filosofia open source em instituições educacionais do Rio Grande do Sul. 
+		
+		Aproveitando a ideia de voluntariado, o grupo decidiu que os eventos seriam sempre gratuitos, porém os participantes são encorajados a doar 2kg de alimentos não-perecíveis, que são encaminhados a instituições de caridade da cidade onde ocorre o evento.
+		
+		Desde Outubro de 2006 o \tl\ realizou 84 eventos em 20 cidades com o auxílio de milhares de voluntários, que ajudaram na organização e apresentando 1291 palestras foram assistidas por 10268 pessoas que doaram 16295kg de alimentos para 40 instituições de caridade. 
+		Há muito trabalho a ser feito e todos são bem-vindos a participar do Tchelinux e ajudar a divulgar o Software Livre e levar o conhecimento à todos cantos do Rio Grande do Sul! 
+		
+		Contamos com você! 
+		
+	\section{Quem somos}
+		
+		O TcheLinux é um grupo de voluntários que trabalha divulgação do Software Livre no estado do Rio Grande do Sul, através da organização e realização de eventos gratuitos para estudantes, profissionais da área de Tecnologia da Informação e demais interessados.
+		
+		O grupo promove também a caridade, uma vez que participantes de seus eventos são encorajados a doarem alimentos não-perecíveis para serem encaminhados à instituções de caridade.
+		
+		\subsection{Iniciativas}
+		
+		Nossas principais iniciativas:
+		
+		\begin{itemize}
+			\item Divulgar o Software Livre no estado do Rio Grande do Sul
+			\item Compartilhar conhecimento técnico e experiências
+			\item Suporte a novos usuários de Software Livre
+			\item Incentivo à caridade
+		\end{itemize}
+	
+	\section{Mascote}
+	
+	O símbolo do software foi escolhido pelo seu criador, Linus Torvalds, que um dia estava no zoológico e foi surpreendido pela mordida de um pinguim. Fato curioso e discutido até hoje. 
+	
+	Em 1996, muitos integrantes da lista de discussão "Linux-Kernel" estavam discutindo sobre a criação de um logotipo ou de um mascote que representasse o Linux. Muitas das sugestões eram paródias ao logotipo de um sistema operacional concorrente e muito conhecido (Windows). Outros eram monstros ou animais agressivos. 
+	
+	Linus Torvalds acabou entrando nesse debate ao afirmar em uma mensagem que gostava muito de pinguins. Isso foi o suficiente para dar fim à discussão. Depois disso, várias tentativas foram feitas numa espécie de concurso para que a imagem de um pinguim servisse aos propósitos do Linux, até que Larry Ewing sugeriu a figura de um "pinguim sustentando o mundo". 
+	
+	Em resposta, Linus Torvalds declarou que achava interessante que esse pinguim tivesse uma imagem simples: um pinguim "gordinho" e com expressão de satisfeito, como se tivesse acabado de comer uma porção de peixes.
+	
+	Torvalds também não achava atraente a ideia de algo agressivo, mas sim a ideia de um pinguim simpático, do tipo em que as crianças perguntem: "Mamãe, posso ter um desses também?". 
+	
+	A \figurename~\ref{tux} apresenta uma imagem do Tux.
+	
+	\begin{figure}[!hbt]
+		\centering
+		\includegraphics[scale=0.1]{tuxOriginal.png}
+		\caption{Tux}
+		\label{tux}
+	\end{figure}
+	
+	
+	\section{Tux Tchelinux}
+	
+		A fim de homenagear a cultura do nosso estado o mascote do tchelinux é o Tux vestido com a idumentária gaúcha. A \figurename~\ref{tcheTux} apresenta o Tux do tchelinux.
+		
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[scale=0.5]{figura.png}
+			\caption{Tche Tux}
+			\label{tcheTux}
+		\end{figure}
+		
+	
+	\section{Um pouco de tabelas}
+	
+	\begin{table}[]
+		\centering
+		\begin{tabular}{ll}
+			\textbf{Carro}   & \textbf{Velocidade Máxima} \\
+			chevete & 100 Km/h          \\
+			fuca    & 90 Km/h           \\
+		\end{tabular}
+		\caption{Uma Tabela Qualquer}
+		\label{tabela}
+	\end{table}
+
+	\begin{table}[]
+		\centering
+		\includegraphics[scale=0.4]{table.jpg}
+		\caption{Outra Tabela Qualquer}
+		\label{tabelaImagem}
+	\end{table}
+
+	
+	\section{Formulas matemáticas}
+	
+	$$\lambda = {x^2 + a_1 + a_2 + a_3 + ... + a_n }$$
+	
+	
+	
+	$$
+	\theta  = \frac{\sigma}{\pi}
+	$$
+	
+	
+	\begin{equation}
+	x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} 
+	\label{bask}
+	\end{equation}
+	
+	
+	\section{Referencias Bibliograficas}
+	
+	Segundo (Fulano, 2005) \footnote{Blbalba} ahsoaldjashdkajhjhaskjdh.
+	
+	Segundo \cite{scrumGuide}, usar Scrum é bom. Um trabalho bacana pode ser em contrado em \cite{16SBG_suscity}.
+	
+	
+	\bibliography{bibliografia}
+	
+
+
+	
+	
+	
+	
+	
+\end{document}
+
+
+%Final documento
